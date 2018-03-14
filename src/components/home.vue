@@ -15,8 +15,9 @@
           </div>
           <div class="row">
             <div class="col-lg-12">
-              <button class="btn btn-info influence_btn">Influencer</button>
-              <button class="btn btn-info brand_btn">Brand</button>
+              <button class="btn btn-info influence_btn"><router-link to='/influencer-login' >Influencer</router-link></button>
+              <button class="btn btn-info brand_btn"><router-link to='/brand-login'> Brand
+              </router-link></button>
             </div>
           </div>
       </div>
@@ -206,6 +207,9 @@ font-size: 25px;
       padding: 20px;
 }
 
+.callout-inner a {
+  color:white;
+}
 
 
 .video-bg video {
@@ -226,6 +230,10 @@ font-size: 25px;
     color: #17a2b8;
     padding-left:40px !important;
     padding-right: 40px !important;
+}
+
+.brand_btn a{
+  color:#17a2b8;
 }
 
 .scroll_down {

@@ -18,7 +18,7 @@
     	</div>
     	<div class="col-lg-3">
     		<h3>Sign up and get your  </h3><h3>free engagement guide</h3>
-    		<button class="btn btn-primary">Claim free ebook</button>
+    		 <a href="https://mailchi.mp/7616c46117e4/3fk0fiqzv9">Claim free ebook</a>
     	</div>
     	<div class="col-lg-3">
     		<h3>Contact Us <br>
@@ -62,10 +62,14 @@ export default {
   	font-size: 12px;
   }
 
-  .footer button {
-  	width: 52%;
+  .footer  a{
     font-size: 12px;
     text-align: center;
+    padding: 10px;
+    background:#007bff;
+    margin: 5px;
+    margin-top: 10px;
+    color: white;
   }
 
   .copyright_logo {

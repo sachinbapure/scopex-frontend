@@ -16,7 +16,12 @@ import BlogHomeComponent from '@/components/bloghome'
 import BlogFollowerComponent from '@/components/blogfollower'
 import BlogMonetizationComponent from '@/components/blogmonetization'
 import BlogGuideComponent from '@/components/blogguide'
+import AboutUsComponent from '@/components/aboutus'
+import PrivacyPageComponent from '@/components/privacy'
+import TermsPageComponent from '@/components/terms'
 import FooterComponent from '@/components/footer'
+import RefundPageComponent from '@/components/refundpolicy'
+
 
 
 
@@ -24,7 +29,7 @@ import FooterComponent from '@/components/footer'
 
 export default {
   name: 'App',
-  components: { MainHeader,Home,InfluencerComponent,BrandComponent,BlogHomeComponent,BlogGuideComponent,BlogMonetizationComponent,BlogFollowerComponent,FooterComponent}
+  components: { MainHeader,Home,InfluencerComponent,BrandComponent,BlogHomeComponent,BlogGuideComponent,BlogMonetizationComponent,BlogFollowerComponent,FooterComponent,AboutUsComponent,PrivacyPageComponent,TermsPageComponent,RefundPageComponent}
 }
 </script>
 
